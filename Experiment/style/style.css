@@ -1,0 +1,108 @@
+html{
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #333;
+	color: #FFF;
+}
+
+h1,h2,h3,h4,h5{
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color: lime;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+/* Containers */
+
+div#container{
+	width: 100%;
+	height: 100%;
+}
+
+div#headerWrap{
+	width: 100%;
+}
+
+div#header{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	width: 960px;
+	height: 125px;
+	border: solid;
+	border-width: 1px;
+	border-color: #AAA;
+}
+
+div#footerWrap{
+	width: 100%;
+}
+
+div#footer{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 960px;
+	height: 125px;
+	border: solid;
+	border-width: 1px;
+	border-color: #AAA;
+}
+
+div#contentWrap{
+	margin: 0 auto;
+	width: 960px;
+	height: 800px;
+	background-color: #666;
+}
+
+div#content{
+	margin: 0 auto;
+	width: 960px;
+	min-height: 500px;
+
+}
+
+div#main{
+	display: block;
+	float: right;
+	width: 760px;
+	height: auto;
+
+}
+
+div#side{
+	display: block;
+	float: left;
+	width: 190px;
+	min-height: 500px;
+
+}
+
+
+/* Start of general styling */
+.error{
+	color: red;
+}
+
+.success{
+	color: lime;
+}
+
